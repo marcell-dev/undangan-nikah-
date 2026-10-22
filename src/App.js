@@ -44,7 +44,7 @@ function SectionTitle({ eyebrow, children }) {
 }
 
 function Countdown() {
-  const target = useMemo(() => new Date("2026-10-18T09:00:00+07:00").getTime(), []);
+  const target = useMemo(() => new Date("2026-10-27T09:00:00+07:00").getTime(), []);
   const calculate = () => {
     const distance = Math.max(0, target - Date.now());
     return {
@@ -129,7 +129,7 @@ export default function App() {
         <div className="cover-panel">
           <div className="cover-top">
             <Monogram />
-            <span className="issue">18 — 10 — 26</span>
+            <span className="issue">27 — 10 — 26</span>
           </div>
           <div className="cover-copy">
             <p className="eyebrow">Undangan Pernikahan</p>
@@ -167,7 +167,7 @@ export default function App() {
         <div className="hero-content reveal">
           <p className="eyebrow">The wedding of</p>
           <h1>Heaven <span>&</span> Keyza</h1>
-          <p className="hero-date">Minggu, 18 Oktober 2026 · Surabaya</p>
+          <p className="hero-date">Selasa, 27 Oktober 2026 · Surabaya</p>
           <a className="outline-btn" href="#event">Lihat Detail <Icon name="arrow" size={18} /></a>
         </div>
         <div className="scroll-note"><span />Gulir untuk menjelajah</div>
@@ -224,7 +224,7 @@ export default function App() {
       <section id="event" className="event section-pad">
         <SectionTitle eyebrow="Simpan tanggalnya">Hari Bahagia</SectionTitle>
         <div className="date-display reveal">
-          <div><span>Minggu</span><strong>18</strong><span>Oktober 2026</span></div>
+          <div><span>Selasa</span><strong>27</strong><span>Oktober 2026</span></div>
           <i />
           <p>Kami berharap Anda berkenan hadir dan turut merayakan babak baru dalam perjalanan kami.</p>
         </div>
@@ -245,7 +245,7 @@ export default function App() {
             <a href="https://www.google.com/maps/search/?api=1&query=Pondok+Plaza+Pakuwon+City+Surabaya" target="_blank" rel="noreferrer">Buka Peta <Icon name="arrow" size={16} /></a>
           </article>
         </div>
-        <a className="calendar-link reveal" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan%20Heaven%20dan%20Keyza&dates=20261018T020000Z/20261018T070000Z&location=Pondok%20Plaza%20Pakuwon%20City%2C%20Surabaya" target="_blank" rel="noreferrer">
+        <a className="calendar-link reveal" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan%20Heaven%20dan%20Keyza&dates=20261027T020000Z/20261027T070000Z&location=Pondok%20Plaza%20Pakuwon%20City%2C%20Surabaya" target="_blank" rel="noreferrer">
           <Icon name="calendar" size={18} /> Tambahkan ke Kalender
         </a>
       </section>
@@ -264,7 +264,7 @@ export default function App() {
         <div className="rsvp-intro reveal">
           <p className="eyebrow">Konfirmasi kehadiran</p>
           <h2>Akankah kami melihat senyum Anda di sana?</h2>
-          <p>Mohon konfirmasi kehadiran sebelum 1 Oktober 2026. Kehadiran dan doa Anda adalah hadiah terindah bagi kami.</p>
+          <p>Mohon konfirmasi kehadiran sebelum 26 Oktober 2026. Kehadiran dan doa Anda adalah hadiah terindah bagi kami.</p>
         </div>
         <div className="rsvp-box reveal">
           {rsvpSent ? (
@@ -333,7 +333,7 @@ export default function App() {
         <Monogram />
         <p>Merupakan kebahagiaan bagi kami apabila Anda berkenan hadir.</p>
         <h2>Heaven <i>&</i> Keyza</h2>
-        <span>18 · 10 · 2026</span>
+        <span>27 · 10 · 2026</span>
         <div className="footer-line" />
       </footer>
     </main>
